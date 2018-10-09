@@ -7,8 +7,10 @@
 module.exports = {
 
   get: (req, res) => {
-
-    res.vsr(Example.find());
+    /*
+      To load a view:
+    */
+    res.render('welcome/index.html');
 
   },
 
